@@ -1,0 +1,75 @@
+body{
+    margin:100px;
+    padding:50px;   
+}
+
+.blocks{
+    position:relative;
+    display: inline-block;
+}
+
+table{
+    border:2px solid DodgerBlue;
+}
+
+td{
+    background-color: DodgerBlue;
+    height:75px;
+    width: 75px;
+}
+
+.button{
+    height: 73px;
+    width: 73px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin: 2px;
+    transition-duration: 1s;
+    opacity: 0.62;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover{
+    opacity: 1;
+    transition-duration: 0.7s;
+}
+
+.add{
+    background-color: yellow;
+    border:1px solid yellow; 
+    line-height: 75px;
+    cursor: pointer; 
+}
+
+.add_col{
+   left:100%;
+   top:2px;
+}
+
+.add_row{
+    top:100%;
+    left: 2px;
+}
+
+.remove{
+    background-color: crimson;  
+    border:1px solid crimson;
+    margin:1px;
+    visibility: hidden;
+    line-height: 40px;
+}
+
+.remove_row{
+   right:100%;
+   top:2px;
+}
+
+.remove_col{
+    bottom:100%;
+    left:10px;
+}
